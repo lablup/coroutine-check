@@ -5,7 +5,6 @@ import asyncio
 import ast
 import sys
 from colorama import init as colorama_init, Fore, Style
-from collections import ChainMap
 
 
 class NotSupportedNodeError(ValueError): pass
